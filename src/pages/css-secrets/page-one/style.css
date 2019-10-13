@@ -1,7 +1,13 @@
+.box {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 190px;
+}
 .wrap{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(45deg,
@@ -9,12 +15,36 @@
     #fb3 0, #fb3 75%, #58a 0);
     background-size: 42.426406871px 42.426406871px;
 }
-.box1{
+.border-box{
     border: 10px solid hsla(0, 0%, 100%, .5);
     background-color: #fff;
     background-clip: padding-box;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     text-align: center;
-    line-height: 190px;
+    line-height: 95px;
+}
+.stripe{
+    background:linear-gradient(blue 50%, white 0);
+    -webkit-background-size: 100% 30px;
+    background-size: 100% 15.4%;
+    color: red;
+}
+.stripe2{
+    background: linear-gradient(45deg,
+    #fb3 25%, #58a 0, #58a 50%,
+    #fb3 0, #fb3 75%, #58a 0);
+    background-size: 42.426406871px 42.426406871px;
+}
+.stripe3{
+    background: repeating-linear-gradient(60deg, red, red 10px, yellow 0, yellow 20px);
+}
+.stripe4{
+    background-color: #58a;
+    background-image: repeating-linear-gradient(30deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0.1) 15px,
+    transparent 0,
+    transparent 30px
+    );
 }

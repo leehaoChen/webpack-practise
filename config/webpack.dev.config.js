@@ -7,6 +7,9 @@ module.exports = {
     mode: 'development',
     entry: resolveApp('./src/app'),
     devtool: 'inline-source-map',
+    resolve: {
+        extensions: ['.js', '.jsx']
+    },
     devServer: {contentBase: resolveApp('./src/dist')},
     output: {
         filename: 'main.js',
@@ -17,14 +20,14 @@ module.exports = {
     ],
     module: {
         rules: [{
-            test: /.jsx?$/,
+            test: /\.jsx?$/,
             use:['babel-loader']
         },{
-            test: /.css$/,
+            test: /\.css$/,
             use: ['style-loader', {loader: 'css-loader', options: {modules: true}}]
         },{
-            test: /.scss$/,
-            use: ['style-loader', {loader: 'css-loader', options: {modules: true}}, 'sass-loader']
+            test: /\.scss$/,
+            use: ['style-loader', 'css-loader', 'sass-loader']
         }]
     }
 

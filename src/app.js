@@ -1,5 +1,5 @@
 // 人口文件
-import HelloWorld from './pages/root.jsx'
 import ReactDom from 'react-dom';
+import HelloWorld from './pages/root';
 
-ReactDom.render(HelloWorld, document.getElementById('root') );
+ReactDom.render(HelloWorld, document.getElementById('root'));

@@ -10,12 +10,12 @@ const View = (props) => {
     test = 'test',
   } = props;
   return (
-    <div className={'padding-1'} style={{border: '1px solid #ccc'}}>
+    <div className={'padding-1'} style={{border: '1px solid #ccc', width: 200}}>
       <ul>
         {
           navConfig.map(
             (item)=>(
-              <li><Link to={item.path}>{item.title}</Link></li>
+              <li key={item.path}><Link to={item.path}>{item.title}</Link></li>
             )
           )
         }

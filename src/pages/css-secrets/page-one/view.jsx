@@ -9,7 +9,7 @@ const View = (props) => {
     test = 'test',
   } = props;
   return (
-    <div className={'flex'}>
+    <div className={'flex row wrap'} >
       <div className={Style.wrap}>
         <div className={Style["border-box"]}>
           半透明边框
@@ -26,6 +26,15 @@ const View = (props) => {
       </div>
       <div className={[Style.stripe4, Style.box].join(' ')}>
         深浅条纹
+      </div>
+      <div className={[Style.stripe5, Style.box].join(' ')}>
+        格子
+      </div>
+      <div className={[Style.stripe6, Style.box].join(' ')}>
+        网格线
+      </div>
+      <div className={[Style.stripe7, Style.box].join(' ')}>
+        双层网格线
       </div>
     </div>
   );

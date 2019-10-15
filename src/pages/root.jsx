@@ -50,7 +50,7 @@ export default  (
     <Router>
         <div className={'flex'}>
             <Nav></Nav>
-            <div className={'padding-1'}>
+            <div className={'padding-1'} style={{flexGrow:1}}>
                 <Switch>
                     {
                         [...config].reverse().map(({path, view})=>{

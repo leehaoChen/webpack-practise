@@ -48,3 +48,25 @@
     transparent 30px
     );
 }
+.stripe5{
+    background-color: #58a;
+   background-image: linear-gradient(90deg,rgba(200,0,0,0.1) 50%, transparent 0),
+   linear-gradient(rgba(200,0,0,0.1) 50%, transparent 0);
+    -webkit-background-size: 10px 10px;
+    background-size: 10px 10px;
+}
+.stripe6{
+    background-color: #58a;
+    background-image: linear-gradient(90deg, white 1px, transparent 0),
+    linear-gradient(white 1px, transparent 0);
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+}
+.stripe7{
+    background-color: #58a;
+    background-image: linear-gradient(90deg, white 1px, transparent 0),
+    linear-gradient(white 1px, transparent 0),
+    linear-gradient(90deg, pink 1px, transparent 0),
+    linear-gradient(pink 1px, transparent 0);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+}

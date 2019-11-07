@@ -4,7 +4,6 @@ import 'normalize.css'
 import config from './rootConfig'
 import Nav from './nav/view'
 import  './global.scss'
-console.log(config);
 function asyncComponent(loadComponent){
     class AsyncComponent extends React.Component{
         // eslint-disable-next-line
@@ -55,7 +54,6 @@ export default  (
                     {
                         [...config].reverse().map(({path, view})=>{
                             let View = asyncComponent(view);
-                            console.log(path, View);
                             return (
                               <Route path={path} key={path}>
                                   {<View></View>}

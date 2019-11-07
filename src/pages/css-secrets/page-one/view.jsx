@@ -36,6 +36,9 @@ const View = (props) => {
       <div className={[Style.stripe7, Style.box].join(' ')}>
         双层网格线
       </div>
+      <div className={[Style.stripe8, Style.box].join(' ')}>
+        border-image
+      </div>
     </div>
   );
 };

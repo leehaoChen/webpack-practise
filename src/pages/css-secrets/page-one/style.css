@@ -70,3 +70,20 @@
     linear-gradient(pink 1px, transparent 0);
     background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
 }
+@keyframes ants { to { background-position: 100% 100% } }
+
+.stripe8 {
+    padding: 1em;
+    border: 1px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    repeating-linear-gradient(-45deg, black 0, black 25%, transparent 0, transparent 50%) 0 / .6em .6em;
+    animation: ants 12s linear infinite;
+
+    max-width: 20em;
+    font: 100%/1.6 Baskerville, Palatino, serif;
+}
+/*.stripe8{*/
+    /*border-top: .2em solid transparent;*/
+    /*border-image: 100% 0 0 linear-gradient(90deg, currentColor 4em, transparent 0);*/
+    /*padding-top: 1em;*/
+/*}*/

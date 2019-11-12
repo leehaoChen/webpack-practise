@@ -26,7 +26,6 @@
 }
 .stripe{
     background:linear-gradient(blue 50%, white 0);
-    -webkit-background-size: 100% 30px;
     background-size: 100% 15.4%;
     color: red;
 }
@@ -70,10 +69,17 @@
     linear-gradient(pink 1px, transparent 0);
     background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
 }
+.stripe8{
+    background-color: #eee;
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black)
+    , linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    color: red
+}
 @keyframes ants { to { background-position: 100% 100% } }
 
-.stripe8 {
-    padding: 1em;
+.stripe9 {
     border: 1px solid transparent;
     background: linear-gradient(white, white) padding-box,
     repeating-linear-gradient(-45deg, black 0, black 25%, transparent 0, transparent 50%) 0 / .6em .6em;
@@ -82,8 +88,34 @@
     max-width: 20em;
     font: 100%/1.6 Baskerville, Palatino, serif;
 }
-/*.stripe8{*/
-    /*border-top: .2em solid transparent;*/
-    /*border-image: 100% 0 0 linear-gradient(90deg, currentColor 4em, transparent 0);*/
-    /*padding-top: 1em;*/
-/*}*/
+.波点{
+    background-image: radial-gradient(pink 30%, transparent 30%), radial-gradient(pink 30%, transparent 30%);
+    background-position: 0 0, 15px 15px;
+    background-size: 30px 30px;
+}
+.tj{
+    background:
+    radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 25px 0,
+    radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 25px 0,
+    radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 0 25px,
+    radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 0 25px,
+    radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%),
+    radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%),
+    radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%) 25px 25px,
+    radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%) 25px 25px,
+    linear-gradient(red 50%, red 100%);
+    /*background-color:#63773F;*/
+    background-size:50px 50px;
+    /*background-repeat: no-repeat;*/
+    /*background-position: 25px 0, 25px 0, 0 25px, 0 25px, 0 0, 0 0, 25px, 25px;*/
+}
+
+.伪随机背景{
+    background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.17) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.19) 50%, transparent 50%);
+    background-size: 13px, 29px, 37px, 53px;
+    background-color: #ffbe0e;
+}

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c1b39cb-66f1-4cf8-9e5b-e24b576e9627" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/grid/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/grid/view.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/overflow/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/overflow/view.jsx" afterDir="false" />
+    <list default="true" id="0c1b39cb-66f1-4cf8-9e5b-e24b576e9627" name="Default Changelist" comment="添加grid 布局">
+      <change afterPath="$PROJECT_DIR$/src/pages/css-secrets/page-two/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/css-secrets/page-two/view.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.dev.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.dev.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/css-secrets/page-one/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/css-secrets/page-one/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/css-secrets/page-one/view.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/css-secrets/page-one/view.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/root.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/root.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/rootConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rootConfig.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/root.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="352">
               <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -37,36 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/root.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-one/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="77" column="57" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/overflow/view.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/overflow/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="279">
+              <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -74,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-one/view.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+            <state relative-caret-position="433">
+              <caret line="52" column="12" selection-start-line="12" selection-start-column="6" selection-end-line="52" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#38#64#0" expanded="true" />
@@ -85,43 +60,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/grid/view.jsx">
+        <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-two/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="162">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-two/view.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
-                <element signature="e#27#53#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#38#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/grid/style.css">
+        <entry file="file://$PROJECT_DIR$/config/webpack.dev.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#194#225#0" />
-              </folding>
+            <state relative-caret-position="355">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19162">
-              <caret line="871" column="23" selection-start-line="871" selection-start-column="18" selection-end-line="871" selection-end-column="23" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/assets/imgs/panda.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/rootConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="308">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -149,17 +145,19 @@
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/config/webpack.dev.config.js" />
-        <option value="$PROJECT_DIR$/src/pages/global.scss" />
         <option value="$PROJECT_DIR$/src/pages/nav/view.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/css-secrets/page-one/view.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/css-secrets/page-one/style.css" />
         <option value="$PROJECT_DIR$/src/pages/overflow/style.css" />
         <option value="$PROJECT_DIR$/src/pages/root.jsx" />
         <option value="$PROJECT_DIR$/src/pages/overflow/view.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/rootConfig.js" />
         <option value="$PROJECT_DIR$/src/pages/grid/view.jsx" />
         <option value="$PROJECT_DIR$/src/pages/grid/style.css" />
+        <option value="$PROJECT_DIR$/src/pages/css-secrets/page-one/view.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/css-secrets/page-one/style.css" />
+        <option value="$PROJECT_DIR$/src/pages/rootConfig.js" />
+        <option value="$PROJECT_DIR$/src/pages/global.scss" />
+        <option value="$PROJECT_DIR$/src/pages/css-secrets/page-two/style.css" />
+        <option value="$PROJECT_DIR$/src/pages/css-secrets/page-two/view.jsx" />
+        <option value="$PROJECT_DIR$/config/webpack.dev.config.js" />
       </list>
     </option>
   </component>
@@ -174,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,28 +184,11 @@
               <item name="webpack-practise" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webpack-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="grid" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,6 +200,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/css-secrets/page-two" />
+      <recent name="$PROJECT_DIR$/src/pages/css-secrets" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
@@ -292,7 +274,9 @@
       <workItem from="1571060436612" duration="2318000" />
       <workItem from="1571275230164" duration="1236000" />
       <workItem from="1571801879842" duration="5636000" />
-      <workItem from="1573092569744" duration="4057000" />
+      <workItem from="1573092569744" duration="4091000" />
+      <workItem from="1573200201267" duration="523000" />
+      <workItem from="1573535642420" duration="10985000" />
     </task>
     <task id="LOCAL-00001" summary="完成">
       <created>1571102389462</created>
@@ -301,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571102389462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加grid 布局">
+      <created>1573103553903</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573103553903</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11190000" />
+    <option name="totallyTimeSpent" value="22732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -313,11 +304,11 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5173469" side_tool="true" weight="0.15792646" />
       <window_info id="Favorites" order="1" sideWeight="0.5173469" side_tool="true" weight="0.15792646" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.47248182" visible="true" weight="0.3188668" />
-      <window_info x="35" y="377" width="839" height="267" id="npm" order="3" sideWeight="0.52751815" side_tool="true" visible="true" weight="0.3188668" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.47040498" visible="true" weight="0.3188668" />
+      <window_info x="35" y="377" width="839" height="267" id="npm" order="3" sideWeight="0.529595" side_tool="true" visible="true" weight="0.3188668" />
       <window_info anchor="bottom" id="调试" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327551" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45586708" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45586708" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -326,7 +317,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32748538" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49367088" visible="true" weight="0.3032191" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49367088" weight="0.3032191" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -336,25 +327,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加grid 布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加grid 布局" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.dev.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -369,20 +350,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/root.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-one/style.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/overflow/view.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="77" column="57" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="57" />
+        <state relative-caret-position="352">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -393,6 +370,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/grid/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#27#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19162">
@@ -400,20 +387,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/overflow/view.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/grid/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="301">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-one/view.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        <state relative-caret-position="433">
+          <caret line="52" column="12" selection-start-line="12" selection-start-column="6" selection-end-line="52" selection-end-column="12" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#38#64#0" expanded="true" />
@@ -421,16 +405,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/rootConfig.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-one/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="279">
+          <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/root.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="352">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -439,23 +423,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/grid/view.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/rootConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="308">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-two/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/imgs/panda.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/css-secrets/page-two/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
-            <element signature="e#27#53#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#38#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/grid/style.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#194#225#0" />
-          </folding>
+        <state relative-caret-position="376">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.dev.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>

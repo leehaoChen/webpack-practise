@@ -6,3 +6,9 @@
 .padding-1 {
     padding: 1rem;
 }
+.grid-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 200px;
+}

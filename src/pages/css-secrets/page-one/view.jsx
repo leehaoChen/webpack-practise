@@ -37,7 +37,19 @@ const View = (props) => {
         双层网格线
       </div>
       <div className={[Style.stripe8, Style.box].join(' ')}>
-        border-image
+        黑白格
+      </div>
+
+      {/*<div className={[Style.stripe9, Style.box].join(' ')}>*/}
+      {/*</div>*/}
+      <div className={[Style.波点, Style.box].join(' ')}>
+        波点
+      </div>
+      <div className={[Style.tj, Style.box].join(' ')}>
+        太极
+      </div>
+      <div className={[Style.伪随机背景, Style.box].join(' ')}>
+        伪随机背景
       </div>
     </div>
   );

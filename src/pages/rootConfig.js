@@ -5,9 +5,14 @@ export default [
         title: '首页'
     },
     {
-        path: '/css',
+        path: '/background',
         view: ()=>import('./css-secrets/page-one/view'),
         title: '背景和边框'
+    },
+    {
+        path: '/shape',
+        view: ()=>import('./css-secrets/page-two/view'),
+        title: '形状'
     },
     {
         path: '/overflow',

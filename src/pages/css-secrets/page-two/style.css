@@ -1,0 +1,69 @@
+.wrap > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.半椭圆1 {
+    background-color: pink;
+    border-radius: 100% 0  0 100% / 50%;
+}
+.半椭圆2 {
+    background-color: pink;
+    border-radius: 0 100%  100% 0 / 50%;
+}
+.半椭圆3 {
+    background-color: pink;
+    border-radius: 50% / 100% 100% 0 0;
+}
+.半椭圆4 {
+    background-color: pink;
+    border-radius: 50% / 0 0 100% 100%;
+}
+.四分之一椭圆1{
+    background-color: gold;
+    border-radius: 100% 0 0 0;
+
+}
+.四分之一椭圆2{
+    background-color: gold;
+    border-radius: 0 100% 0 0;
+}
+.四分之一椭圆3{
+    background-color: gold;
+    border-radius: 0 0 0 100%;
+
+}
+.四分之一椭圆4{
+    background-color: gold;
+    border-radius: 0 0 100% 0;
+}
+.平行四边形按钮 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.平行四边形按钮::after{
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blue;
+    transform: skewX(-45deg);
+    z-index: -1;
+}
+.截取{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    transition: 1s clip-path;
+}
+.截取:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
